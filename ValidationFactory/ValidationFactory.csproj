@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Validators\" />
+    <Folder Include="Security\" />
+  </ItemGroup>
+
 </Project>
