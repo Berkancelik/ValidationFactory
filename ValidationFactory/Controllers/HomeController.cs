@@ -42,14 +42,14 @@ namespace ValidationFactory.Controllers
         {
             User user = new User()
             {
-                Name = "Bora",
-                LastName = "Kasmer",
-                UserName = "bk@smer",
+                Name = "Berkan",
+                LastName = "Celik",
+                UserName = "berkancelik",
                 Password = "vbt123456",
-                Email = "bora.kasmer78",
-                Email2 = "bora.kasmer78@gmail.com",
+                Email = "berkan.celik",
+                Email2 = "berkan.celik@gmail.com",
                 BirthDate = new DateTime(1881, 6, 3),
-                Gsm = "5426781944",
+                Gsm = "05312365478",
             };
             List<(bool, Exception)> errorList = new();
             errorList = ValidateClassProperties.GetValidatoResult(user);
