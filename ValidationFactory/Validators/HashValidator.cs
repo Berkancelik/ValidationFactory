@@ -1,4 +1,6 @@
-﻿namespace ValidationFactory.Validators
+﻿using ValidationFactory.Security;
+
+namespace ValidationFactory.Validators
 {
     public record HashValidator<T>() : Validator, IValidator<T>
     {

@@ -1,6 +1,4 @@
-﻿using ValidationFactory.Security;
-
-namespace ValidationFactory.Validators
+﻿namespace ValidationFactory.Validators
 {
     public static class ValidatorFactory<T>
     {
